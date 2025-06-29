@@ -26,6 +26,7 @@
                             required autocomplete="new-password" />
 
             <x-input-error :messages="$errors->get('password')" class="mt-2" />
+            <p class="text-xs text-gray-500 mt-1">Gebruik een wachtwoordmanager voor sterke en unieke wachtwoorden. Je wachtwoord moet minimaal 12 tekens bevatten, inclusief hoofdletters, kleine letters, cijfers en speciale tekens.</p>
         </div>
 
         <!-- Confirm Password -->
